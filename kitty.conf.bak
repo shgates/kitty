@@ -1,0 +1,17 @@
+# BEGIN_KITTY_THEME
+# N0tch2k
+include current-theme.conf
+# END_KITTY_THEME
+
+# FONT
+font_family SFMono Nerd Font
+font_size   15.0
+
+# WINDOW
+initial_window_width 470
+initial_window_height 850
+
+window_padding_width 0 
+
+background_opacity 0.8
+background_blur 32
