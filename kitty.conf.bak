@@ -1,3 +1,14 @@
+# IMPORTS:
+#
+# - THEME
+include blackmetal.conf
+#include gruvbox.conf
+#
+# - MAPPING
+include keymaps.conf
+
+# CONFIG:
+#
 # SHELL INTEGRATION
 shell_integration disabled
 
@@ -25,12 +36,8 @@ window_padding_width 0
 background_opacity 0.8
 # background_blur 32
 
-# THEME
-include blackmetal.conf
-
-
 # BEGIN_KITTY_FONTS
-font_family      family="Liga SFMono Nerd Font"
+font_family      family="Hurmit Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
