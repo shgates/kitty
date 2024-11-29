@@ -12,10 +12,6 @@ include keymaps.conf
 # SHELL INTEGRATION
 shell_integration disabled
 
-# FONT
-# font_family SFMono Nerd Font
-font_size   15.0
-
 modify_font cell_height -5px
 modify_font baseline 3
 
@@ -26,7 +22,6 @@ scrollback_lines 10000
 # WINDOW
 draw_minimal_borders yes
 window_border_width 0
-titlebar-and-corners
 active_border_color none
 
 initial_window_width 470
@@ -37,7 +32,8 @@ background_opacity 0.8
 # background_blur 32
 
 # BEGIN_KITTY_FONTS
-font_family      family="Hurmit Nerd Font Mono"
+font_size   15.0
+font_family      family="DepartureMono Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
